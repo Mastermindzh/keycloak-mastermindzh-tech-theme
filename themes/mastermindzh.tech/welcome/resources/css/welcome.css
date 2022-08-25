@@ -1,0 +1,79 @@
+body {
+  background: #fff url(../bg.jpg) no-repeat center bottom fixed;
+  background-size: cover;
+}
+
+.div-center {
+  width: 100%;
+  max-width: 500px;
+  height: 487px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: auto;
+  padding: 1em 2em;
+  display: table;
+  box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%),
+    0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.content {
+  padding-top: 10px;
+}
+
+img.doc-img {
+  width: auto;
+  height: 22px;
+}
+
+.link {
+  font-size: 16px;
+  vertical-align: baseline;
+  margin-left: 5px;
+}
+
+h3 {
+  font-weight: 550;
+}
+
+h3 a:link,
+h3 a:visited {
+  color: #333;
+  font-weight: 550;
+}
+
+h3 a:hover,
+h3 a:hover .link {
+  text-decoration: none;
+  color: #00659c;
+}
+
+h3 a img {
+  height: 30px;
+  margin-right: 10px;
+  width: auto;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.logo {
+  max-width: 300px;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .div-center {
+    max-width: 100%;
+    height: 100%;
+  }
+}

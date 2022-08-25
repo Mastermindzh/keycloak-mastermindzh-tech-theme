@@ -1,0 +1,22 @@
+{
+  "name": "sso.mastermindzh.tech",
+  "version": "1.0.0",
+  "description": "Theme for keycloak SSO",
+  "keywords": [
+    "Keycloak",
+    "mastermindzh.tech"
+  ],
+  "author": "Rick van Lieshout",
+  "homepage": "https://rickvanlieshout.com",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=10.9.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "docker-compose up -d"
+  }
+}
