@@ -1,5 +1,2 @@
-- see if I can re-use a single set of logos/favicons... etc
-- new background image
-- new login theme
 - increase text size in logo
 - increase size of favicon? (remove "hair")?

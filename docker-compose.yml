@@ -13,6 +13,7 @@ services:
   keycloak:
     image: docker.io/bitnami/keycloak:18
     volumes:
+      - ./test:/test
       - ./themes:/opt/bitnami/keycloak/themes
     depends_on:
       - postgresql

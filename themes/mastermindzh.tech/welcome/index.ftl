@@ -26,11 +26,8 @@
       <div class="div-center">
          <div class="content">
             <div>
-            <img src ="${resourcesPath}/logo.png" alt = "logo" class="logo"/>
-            
-            
+               <img src ="${resourcesPath}/img/logo.png" alt = "logo" class="logo"/>
             </div>
-            
             <hr />
             <h3><a href="${adminUrl}"><img src="welcome-content/admin-console.png">Administration Console <i class="fa fa-angle-right link" aria-hidden="true"></i></a></h3>
             <div class="description">
